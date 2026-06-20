@@ -1,8 +1,8 @@
 ## Chest X-Ray Pneumonia Detection using DenseNet121
 
-Author: Karan Singh
-Program: B.Tech Computer Science & Engineering (AI & ML)
-University: Graphic Era Hill University
+- Author: Karan Singh
+- Program: B.Tech Computer Science & Engineering (AI & ML)
+- University: Graphic Era Hill University
 
 
 
