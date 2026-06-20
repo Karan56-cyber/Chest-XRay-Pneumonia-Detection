@@ -183,7 +183,9 @@ Chest-XRay-Pneumonia-Detection/
     └── pneumonia_detector.keras
 ```
 
+## Note
 
+The trained model file is not included in this repository due to GitHub file size limitations. The model can be reproduced by running the provided notebook.
 
 ## 🤝 Connect With Me
 
