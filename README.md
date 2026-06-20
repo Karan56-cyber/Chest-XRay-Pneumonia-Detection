@@ -116,29 +116,28 @@ The model was evaluated using:
 
 ## 📈 Results
 
-Metric	Score
-Accuracy	93%
-Precision	93%
-Recall	93%
-F1 Score	93%
+| Metric | Score |
+|---------|---------|
+| Accuracy | 96% |
+| Precision | 96% |
+| Recall | 99% |
+| F1 Score | 98% |
 
-The model demonstrates strong performance in detecting Pneumonia while maintaining a low false-negative rate.
-
+The model demonstrates strong performance in detecting Pneumonia while maintaining a very low false-negative rate.
 
 
 ## 📋 Classification Report
 
-Class	Precision	Recall	F1-Score
-Normal	0.87	0.84	0.85
-Pneumonia	0.95	0.96	0.95
-
-
+| Class | Precision | Recall | F1-Score |
+|---------|---------|---------|---------|
+| Normal | 0.98 | 0.87 | 0.92 |
+| Pneumonia | 0.96 | 0.99 | 0.98 |
 
 
 ## 🔍 Confusion Matrix
 
 The confusion matrix summarizes the classification performance of the model on the test dataset.
-![Confusion Matrix](images/Confusion_metrics.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 
 ## 💡 Key Insight
@@ -152,11 +151,12 @@ After converting the task into a binary classification problem:
 
 the model achieved:
 
-* 93% Accuracy
-* 96% Recall for Pneumonia
-* 95% F1 Score for Pneumonia
+* 96% Accuracy
+* 99% Recall for Pneumonia
+* 98% F1 Score for Pneumonia
 
-This demonstrates that distinguishing Pneumonia from Normal Chest X-Rays is significantly easier than distinguishing between Viral and Bacterial Pneumonia.
+The final model misclassified only 5 Pneumonia cases as Normal, resulting in a very low false-negative rate, which is critical for medical screening applications.
+
 
 
 
