@@ -138,7 +138,7 @@ Pneumonia	0.95	0.96	0.95
 ## 🔍 Confusion Matrix
 
 The confusion matrix summarizes the classification performance of the model on the test dataset.
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/Confusion_metrics.png)
 
 
 ## 💡 Key Insight
